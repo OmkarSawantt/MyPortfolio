@@ -1,13 +1,13 @@
 "use client";
-import AnimatedBackground from '@/Components/Background'
+import AnimatedBackground from './components/Background'
 import { AnimatePresence } from 'framer-motion';
-import WelcomeScreen from '@/Components/WelcomeScreen';
+import WelcomeScreen from './components/WelcomeScreen';
 import { useState } from 'react';
-import Navbar from '@/components/Navbar';
-import MainPage from '@/pages/MainPage';
-import About from '@/pages/About';
-import Portfolio from '@/pages/Portfolio'
-import ContactPage from '@/pages/Contact';
+import Navbar from './components/Navbar';
+import MainPage from './pages/MainPage';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio'
+import ContactPage from './pages/Contact';
 export default function Home() {
   const [showWelcome, setShowWelcome] = useState(true);
   return (
