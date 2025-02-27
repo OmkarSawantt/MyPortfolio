@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react"
 
-const AnimatedBackground = () => {
+const Background = () => {
 	const blobRefs = useRef([])
 	const initialPositions = [
 		{ x: -4, y: 0 },
@@ -64,4 +64,4 @@ const AnimatedBackground = () => {
 	)
 }
 
-export default AnimatedBackground
+export default Background
